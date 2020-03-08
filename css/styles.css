@@ -1,0 +1,29 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.navicon{
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.navbar{
+  font-size: 14px;
+}
+
+.conicon{
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 0px;
+  color: #d7d7d7;
+}
+
+.conicon:hover{
+  color: #D53928;
+}
