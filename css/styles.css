@@ -7,19 +7,14 @@ body{
   font-size: 20px;
 }
 
-.title{
-  font-size: 50px;
-  font-weight: 700;
-  color: #D53928;
-}
-
 .navicon{
   margin-right: 10px;
   font-size: 12px;
 }
 
 .navbar{
-  font-size: 14px;
+  font-size: 18px;
+  padding: 15px;
 }
 
 .conicon{
@@ -34,13 +29,23 @@ body{
 }
 
 h2{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
+  color: #D53928;
+  margin: 20px;
 }
 
 h3{
   margin-bottom: 15px;
   font-weight: 600;
+  display: block;
+}
+
+h1{
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+  color: #D53928;
 }
 
 .button{
@@ -58,4 +63,63 @@ h3{
 
 .card-image{
   border-radius: 20px;
+}
+
+.hero{
+  background-image: url(../assets/heroback.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.hero-body{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.column{
+  text-align: center;
+  padding: 30px;
+}
+
+.progress{
+  margin: 20px;
+}
+
+table, th, td{
+  padding: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.brand{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bottom{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button{
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.footer{
+  background-color: #D53928;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.fticon{
+  font-size: 20px;
+  margin: 20px;
+  margin-left: 0px;
+  color: #d7d7d7;
+}
+
+.fticon:hover{
+  font-size: 25px;
 }
