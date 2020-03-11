@@ -1,125 +1,131 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
-.navicon{
+.navicon {
   margin-right: 10px;
   font-size: 12px;
 }
 
-.navbar{
+.navbar {
   font-size: 18px;
   padding: 15px;
 }
 
-.conicon{
+.conicon {
   font-size: 30px;
   margin: 20px;
   margin-left: 0px;
   color: #d7d7d7;
 }
 
-.conicon:hover{
+.conicon:hover {
   color: #D53928;
 }
 
-h2{
+h2 {
   font-size: 40px;
   font-weight: 700;
   color: #D53928;
   margin: 20px;
 }
 
-h3{
+h3 {
   margin-bottom: 15px;
   font-weight: 600;
   display: block;
 }
 
-h1{
+h1 {
   display: block;
   font-size: 50px;
   font-weight: 700;
   color: #D53928;
 }
 
-.button{
+.button {
   background-color: #D53928;
   color: white;
 }
 
-.btnicon{
+.btnicon {
   margin-right: 10px;
 }
 
-.card{
+.card {
   border-radius: 20px;
 }
 
-.card-image{
+.card-image {
   border-radius: 20px;
 }
 
-.hero{
+.hero {
   background-image: url(../assets/heroback.png);
   background-position: center;
   background-size: contain;
 }
 
-.hero-body{
+.hero-body {
   text-align: center;
   margin: 0 auto;
 }
 
-.column{
+.column {
   text-align: center;
   padding: 30px;
 }
 
-.progress{
+.progress {
   margin: 20px;
 }
 
-table, th, td{
+table,
+th,
+td {
   padding: 50px;
   text-align: center;
   vertical-align: middle;
 }
 
-.brand{
+.brand {
   font-size: 14px;
   font-weight: 600;
 }
 
-.bottom{
+.bottom {
   text-align: center;
   margin: 0 auto;
 }
 
-.button{
+.button {
   border-radius: 50%;
   margin: 20px;
 }
 
-.footer{
+.footer {
   background-color: #D53928;
   color: white;
   font-weight: 500;
   text-align: center;
 }
 
-.fticon{
+.fticon {
   font-size: 20px;
   margin: 20px;
   margin-left: 0px;
   color: #d7d7d7;
 }
 
-.fticon:hover{
+.fticon:hover {
   font-size: 25px;
+}
+
+.rotate45 {
+  transform: rotate(-45deg);
 }
