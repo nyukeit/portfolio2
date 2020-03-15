@@ -61,7 +61,7 @@ h1 {
   border-radius: 20px;
 }
 
-.card-image {
+.image {
   border-radius: 20px;
 }
 
@@ -128,4 +128,9 @@ td {
 
 .rotate45 {
   transform: rotate(-45deg);
+}
+
+.content{
+  text-align: justify;
+  font-size: 14px;
 }
